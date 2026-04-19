@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { getModelPerformance } from "@/src/lib/mockData";
+import { getModelPerformance } from "@/src/lib/database";
 import { ModelPerformance } from "@/src/lib/types";
 import Charts from "@/components/analytics/Charts";
 

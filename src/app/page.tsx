@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { getMetricCards, getFunnelData, getTopRoles, getActivityLogs } from "@/src/lib/mockData";
+import { getMetricCards, getFunnelData, getTopRoles, getActivityLogs } from "@/src/lib/database";
 import { MetricCard, FunnelData, TopRole, ActivityLog } from "@/src/lib/types";
 import MetricCards from "@/components/home/MetricCards";
 import PipelineFunnel from "@/components/home/PipelineFunnel";

@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { getCampaigns, getRecipients } from "@/src/lib/mockData";
+import { getCampaigns, getRecipients } from "@/src/lib/database";
 import { OutreachCampaign, Recipient } from "@/src/lib/types";
 import OutreachTable from "@/components/outreach/OutreachTable";
 

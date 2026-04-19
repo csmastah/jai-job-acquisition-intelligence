@@ -4,7 +4,7 @@
  */
 
 import { useState, useEffect } from "react";
-import { getRoles } from "@/src/lib/mockData";
+import { getRoles } from "@/src/lib/database";
 import { Role } from "@/src/lib/types";
 import RoleTable from "@/components/pipeline/RoleTable";
 import RoleDetailPanel from "@/components/pipeline/RoleDetailPanel";
